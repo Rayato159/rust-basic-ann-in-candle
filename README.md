@@ -6,6 +6,38 @@ This project is for fun in 300%, If you come to find useful stuff, probably get 
 
 ![alt text](./screenshots/model.png "Model")
 
+# Training Data
+
+```text
+x:
+[
+    [16., 4.],
+    [1., 4.],
+    [16, 3.]
+]
+
+y:
+[
+    [98.],
+    [81.],
+    [26.]
+]
+```
+
+# Testing Data
+
+```text
+x:
+[
+    [1. 3.],
+]
+
+y:
+[
+    [3.],
+]
+```
+
 # Training Result
 
 ```bash
@@ -23,5 +55,5 @@ Epoch: 1000 Train loss: 2852.895996
 # Output
 
 ```text
-x: [1, 3] -> (y_true: 13, y_pred: 4)
+x: [1, 3] -> (y_true: 03, y_pred: 04)
 ```
