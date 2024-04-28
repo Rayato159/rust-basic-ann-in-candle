@@ -25,7 +25,7 @@ impl Dataset {
         let training_y_vector: Vec<Vec<f32>> = vec![vec![98.], vec![81.], vec![26.]];
         let training_y = Tensor::new(training_y_vector.clone(), &device)?;
 
-        let testing_y_vector: Vec<Vec<f32>> = vec![vec![13.]];
+        let testing_y_vector: Vec<Vec<f32>> = vec![vec![3.]];
         let testing_y = Tensor::new(testing_y_vector.clone(), &device)?;
 
         Ok(Self {
