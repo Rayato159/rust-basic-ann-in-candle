@@ -57,3 +57,7 @@ Epoch: 1000 Train loss: 2852.895996
 ```text
 x: [1, 3] -> (y_true: 03, y_pred: 04)
 ```
+
+# Credit
+
+https://github.com/huggingface/candle
